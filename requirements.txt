@@ -1,0 +1,11 @@
+fastapi==0.79.0
+jupyter==1.0.0
+matplotlib==3.5.2
+numpy==1.23.1
+openpyxl==3.0.10
+pandas==1.4.3
+pinyin==0.4.0
+seaborn==0.11.2
+sklearn==0.0
+tqdm==4.64.0
+uvicorn==0.18.2

@@ -1,0 +1,6 @@
+data/
+docs/
+env/
+.ipynb_checkpoints/
+__pycache__/
+*.pickle

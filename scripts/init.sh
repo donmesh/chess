@@ -1,0 +1,5 @@
+#!/bin/bash
+RELATIVE_SCRIPT_DIR=$(dirname $BASH_SOURCE)
+SCRIPT_DIR=$(cd "$RELATIVE_SCRIPT_DIR"/.. && pwd)
+export PROJECT_ROOT=$SCRIPT_DIR
+export PYTHONPATH="$SCRIPT_DIR/src"

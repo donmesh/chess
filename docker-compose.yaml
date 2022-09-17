@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  app:
+    image: app
+    container_name: chess
+    environment:
+      HOST: 0.0.0.0
+      PORT: 8000
+      PROJECT_ROOT: /chess
+      PYTHONPATH: /chess/src
+    ports:
+      - "8000:8000"
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    restart: on-failure
